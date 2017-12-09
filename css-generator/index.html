@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS-Generator</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>CSS-Generator</h1>
+    <div class="wrap__item wrap__item--topL">
+      <p class="wrap__title flex">Верхний левый угол:</p>
+      <input type="range" id="rtl" class="wrap__range" min="0"
+      max="100" value="0" oninput="fun1();">
+      <p id="ttl" class="wrap__out flex">0</p>
+    </div>
+    <div class="wrap__item wrap__item--topR">
+      <p class="wrap__title flex">Верхний правый угол:</p>
+      <input type="range" id="rtr" class="wrap__range" min="0"
+       max="100" value="0" oninput="fun1();">
+      <p id="ttr" class="wrap__out flex">0</p>
+    </div>
+    <div class="wrap__item wrap__item--bottomR">
+      <p class="wrap__title flex">Нижний правый угол:</p>
+      <input type="range" id="rbr" class="wrap__range" min="0"
+      max="100" value="0" oninput="fun1();">
+      <p id="tbr" class="wrap__out flex">0</p>
+    </div>
+    <div class="wrap__item wrap__item--bottomL">
+      <p class="wrap__title flex">Нижний левый угол:</p>
+      <input type="range" id="rbl" class="wrap__range" min="0"
+      max="100" value="0" oninput="fun1();">
+      <p id="tbl" class="wrap__out flex">0</p>
+    </div>
+    <div id="block" class="block"></div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
