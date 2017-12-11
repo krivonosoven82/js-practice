@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Arial', sans-serif; }
+
+.wrap {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .wrap__title {
+    margin-bottom: 50px; }
+  .wrap__mySkill {
+    position: relative;
+    width: 450px;
+    height: 100px;
+    background-color: #ddd;
+    margin-bottom: 30px; }
+  .wrap__bar {
+    width: 10%;
+    height: 100%;
+    background-color: #4caf50; }
+  .wrap__label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white; }
+  .wrap__btn {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    text-transform: uppercase; }
+    .wrap__btn:hover {
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
