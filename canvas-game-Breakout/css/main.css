@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrap {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .wrap__title {
+    margin-bottom: 15px; }
+  .wrap__link {
+    margin-bottom: 30px; }
+  .wrap__canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
